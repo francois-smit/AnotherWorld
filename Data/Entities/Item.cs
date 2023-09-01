@@ -9,7 +9,7 @@ namespace AnotherWorld.Data.Entities
         public ItemType Type { get; set; }
         public int StatBoost { get; set; }
         public int Damage { get; set; } // For weapons
-        public int Defense { get; set; } // For armo
+        public int Defense { get; set; } // For armor
         public Hero Hero { get; set; }
     }
 
